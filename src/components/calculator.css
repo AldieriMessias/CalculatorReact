@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: right;
+}
+
+.backGround{
+    background-image: linear-gradient(45deg , red, yellow);
+    height: 100vh;
+    color: darkblue;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: olivedrab;
+    border-radius: 2em;
+    padding: 25px;
+}
+
+#result{
+    height: 30px;
+    background-color: white;
+    border-radius: .5em;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 8px;
+}
+
+button{
+    width: 3em;
+    font-size: 1.5em;
+    border-radius: 2em;
+    border: none;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: pink;
+}
+
+.btnResult{
+    
+}
